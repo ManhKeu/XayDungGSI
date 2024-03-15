@@ -1,16 +1,16 @@
-name: Xây Dựng Generic System Image
+name: ManhKeu Generic System Image
 
 on:
   watch:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://jaist.dl.sourceforge.net/project/b2n-sprout/LineageOS/lineage-20.0-20230619-UNOFFICIAL-Onyx.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AB: Lineageos_ab_nokia_7_plus.zip
 
 jobs:
   build:
