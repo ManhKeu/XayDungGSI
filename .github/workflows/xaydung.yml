@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://jaist.dl.sourceforge.net/project/b2n-sprout/LineageOS/lineage-20.0-20230619-UNOFFICIAL-Onyx.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
